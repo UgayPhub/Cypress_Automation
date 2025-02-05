@@ -14,7 +14,7 @@ describe("Scroll Tests", () => {
     HomePage.scrollDown();
     HomePage.scrollUpWithArrow();
   });
-  it.only("Subscription", () => {
+  it("Subscription", () => {
     HomePage.verifySubscriptionSection();
   });
 });
